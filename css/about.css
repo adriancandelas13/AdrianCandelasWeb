@@ -1,0 +1,94 @@
+.img-about-profilePic {
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    margin-bottom: 20px;
+}
+
+.img-about-iconInfo {
+    width: 20px;
+}
+
+.div-about-info {
+    margin-bottom: 10px;
+}
+
+.span-about-info {
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .span-about-info {
+        font-size: 18px;
+    }
+}
+
+.span-about-name {
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+    font-size: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .span-about-name {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .span-about-name {
+        font-size: 60px;
+        padding-bottom: 25px;
+    }
+}
+
+.span-about-fullstack {
+    font-weight: bold;
+    color: rgb(105, 166, 194);
+    font-size: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .span-about-fullstack {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .span-about-fullstack {
+        font-size: 35px;
+    }
+}
+
+.div-about-description {
+    border: 2px solid rgb(105, 166, 194);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    transition: 1s ease;
+}
+
+.div-about-description:hover {
+    box-shadow: 2px 2px 5px rgb(155, 155, 155);
+    color: aquamarine;
+    padding: 10px;
+}
+
+.span-about-description {
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .span-about-description {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .span-about-description {
+        font-size: 21px;
+    }
+}
