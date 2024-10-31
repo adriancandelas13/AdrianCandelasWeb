@@ -1,0 +1,41 @@
+.img-projects-img {
+    width: 100%;
+}
+
+.img-projects-icon {
+    width: 20%;
+    margin-top: 5%;
+    border: 3px solid white;
+    background-color: aliceblue;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.span-projects-icon {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.div-projects-img {
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding: 0;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    overflow: hidden;
+    position: relative;
+}
+
+.div-projects-hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(105, 159, 184, 0.7);
+    opacity: 0;
+    transition: opacity 1s ease;
+    height: 40%;
+    width: 100%;
+}
+
+.div-projects-img:hover .div-projects-hover {
+    opacity: 1;
+}

@@ -1,0 +1,19 @@
+.img-knowledge-icon {
+    width: 70%;
+}
+
+.div-knowledge-icon {
+    border: 2px solid rgb(105, 166, 194);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    margin-top: 7px;
+    width: 20%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.span-knowledge-type {
+    font-size: 22px;
+    color: rgb(34, 34, 34);
+}

@@ -1,27 +1,16 @@
 body{ 
     background-color: rgb(230, 230, 230);
     /*
-    font-family: "Tiny5", serif;
-  font-family: "Teko", serif;
-  font-family: "Orbitron", sans-serif;
-  font-family: "Pirata One", system-ui;
-  font-family: "Silkscreen", sans-serif;
-  font-family: "Bangers", system-ui;
-  font-family: "Audiowide", sans-serif;
-  font-family: "VT323", monospace;
-  font-family: "Aldrich", sans-serif;
-  font-family: "Odibee Sans", sans-serif;
-  font-family: "Wallpoet", sans-serif;
-  font-family: "Kelly Slab", sans-serif;
-  font-family: "Pixelify Sans", sans-serif;
-  font-family: "Geo", sans-serif;
-  font-family: "DotGothic16", sans-serif;
-  font-family: "Sarpanch", sans-serif;
-  font-family: "Jaro", sans-serif;
-  font-family: "Saira Stencil One", sans-serif;
-  font-family: "Jersey 10", sans-serif;
     */
-  font-family: "Iceland", sans-serif;
+    font-family: "Tiny5", serif;
+    font-family: "Orbitron", sans-serif;
+    font-family: "Audiowide", sans-serif;
+    font-family: "VT323", monospace;
+    font-family: "Aldrich", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
+    font-family: "DotGothic16", sans-serif;
+    font-family: "Jersey 10", sans-serif;
+    font-family: "Iceland", sans-serif;
 }
 
 .main-container {
@@ -53,8 +42,54 @@ body{
     height: 1px;
 }
 
+.div-index-separator-mt {
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .div-index-separator-mt {
+        margin-top: 1000px;
+    }
+}
+
 .span-index-title-about {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     color: rgb(71, 111, 129);
+}
+
+.span-index-title-projects {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(71, 111, 129);
+}
+
+@media (min-width: 767px) {
+    .span-index-title-projects {
+        font-size: 25px;
+    }
+}
+
+.span-index-title-studies {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(71, 111, 129);
+}
+
+@media (min-width: 767px) {
+    .span-index-title-studies {
+        font-size: 25px;
+    }
+}
+
+.span-index-title-knowledge {
+    font-weight: bold;
+    font-size: 19px;
+    color: rgb(71, 111, 129);
+}
+
+@media (min-width: 767px) {
+    .span-index-title-knowledge {
+        font-size: 25px;
+    }
 }
