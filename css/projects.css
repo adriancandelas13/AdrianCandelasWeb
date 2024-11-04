@@ -36,6 +36,22 @@
     width: 100%;
 }
 
+.div-projects-hover-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(187, 187, 187, 0.7);
+    opacity: 0;
+    transition: opacity 1s ease;
+    height: 40%;
+    width: 100%;
+}
+
 .div-projects-img:hover .div-projects-hover {
+    opacity: 1;
+}
+
+.div-projects-img:hover .div-projects-hover-top {
     opacity: 1;
 }
